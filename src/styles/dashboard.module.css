@@ -1,0 +1,48 @@
+.userdetails {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px 1rem 5px 1rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+#dettable {
+    margin-inline: auto;
+    margin-block: 5rem;
+}
+
+
+td {
+    border: none;
+    text-align: center;
+    margin-block: 10px;
+}
+
+.mcontainer {
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 3rem;
+}
+
+.row {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem 10px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 10px black;
+
+}
+
+.inner-row {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 1fr 1fr;
+}
+
+.headings {
+    font-weight: bold;
+}
